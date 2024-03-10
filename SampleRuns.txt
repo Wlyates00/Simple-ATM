@@ -1,0 +1,213 @@
+***********************     ALL SAMPLE RUNS     *************************
+*************************************************************************
+
+------ Customer Withdraw -------
+Complete one of the following to access this ATM
+Enter 1 to enter an account number
+Enter 2 to enter an ATM operator password
+
+1
+Enter your bank account number:
+11111111
+Enter your PIN:
+1234
+Enter 1 to withdraw money from your account
+Enter 2 to deposit money into your account
+Enter 3 to transfer money into an account
+Enter 4 to check your current balance
+Enter 5 to check the ATM vault balance (**REQUIRES OPERATOR PASSWORD**)
+
+1
+CURRENT BALANCE: $100
+How many $100 bills do you want to withdraw?
+0
+How many $50 bills do you want to withdraw?
+1
+How many $20 bills do you want to withdraw?
+1
+How many $5 bills do you want to withdraw?
+1
+NEW BALANCE: $25
+
+------------------------------------------------------------------------------------------------------------------------
+------ Customer Deposit ------
+Complete one of the following to access this ATM
+Enter 1 to enter an account number
+Enter 2 to enter an ATM operator password
+
+1
+Enter your bank account number:
+00000000
+Enter your PIN:
+1234
+Enter 1 to withdraw money from your account
+Enter 2 to deposit money into your account
+Enter 3 to transfer money into an account
+Enter 4 to check your current balance
+Enter 5 to check the ATM vault balance (**REQUIRES OPERATOR PASSWORD**)
+
+2
+CURRENT BALANCE: $100
+How many $100 bills do you want to deposit?
+1
+How many $50 bills do you want to deposit?
+2
+How many $20 bills do you want to deposit?
+8
+How many $5 bills do you want to deposit?
+0
+NEW BALANCE: $460
+
+------------------------------------------------------------------------------------------------------------------------
+------ Customer Transfer ------
+Complete one of the following to access this ATM
+Enter 1 to enter an account number
+Enter 2 to enter an ATM operator password
+
+1
+Enter your bank account number:
+10101010
+Enter your PIN:
+4321
+Enter 1 to withdraw money from your account
+Enter 2 to deposit money into your account
+Enter 3 to transfer money into an account
+Enter 4 to check your current balance
+Enter 5 to check the ATM vault balance (**REQUIRES OPERATOR PASSWORD**)
+
+3
+CURRENT BALANCE: $100
+Enter any valid bank account number you would like to transfer into
+33333333
+Enter the amount you want to transfer to the dollar amount (e.g. 12.62 or 12)
+99.99
+NEW BALANCE: 0.01
+
+------------------------------------------------------------------------------------------------------------------------
+------ Customer Check Balance ------
+Complete one of the following to access this ATM
+Enter 1 to enter an account number
+Enter 2 to enter an ATM operator password
+
+1
+Enter your bank account number:
+11111111
+Enter your PIN:
+1234
+Enter 1 to withdraw money from your account
+Enter 2 to deposit money into your account
+Enter 3 to transfer money into an account
+Enter 4 to check your current balance
+Enter 5 to check the ATM vault balance (**REQUIRES OPERATOR PASSWORD**)
+
+4
+CURRENT BALANCE: $100
+
+------------------------------------------------------------------------------------------------------------------------
+------ Operator Check Vault Balance ------
+Complete one of the following to access this ATM
+Enter 1 to enter an account number
+Enter 2 to enter an ATM operator password
+
+1
+Enter your bank account number:
+11111111
+Enter your PIN:
+1234
+Enter 1 to withdraw money from your account
+Enter 2 to deposit money into your account
+Enter 3 to transfer money into an account
+Enter 4 to check your current balance
+Enter 5 to check the ATM vault balance (**REQUIRES OPERATOR PASSWORD**)
+
+5
+Enter the ATM operator password
+SecureATM
+The vault currently has: $17500
+
+------------------------------------------------------------------------------------------------------------------------
+------ Operator Check Vault Status ------
+Complete one of the following to access this ATM
+Enter 1 to enter an account number
+Enter 2 to enter an ATM operator password
+
+2
+Enter your ATM operator password:
+SecureATM
+Enter 1 to display the number of each bill
+Enter 2 to put a given number of bills into the ATM
+Enter 3 to remove a given number of bills from the ATM
+
+1
+$100.......100
+$50.......99
+$20.......99
+$5.......99
+
+------------------------------------------------------------------------------------------------------------------------
+------ Operator Add Bills ------
+Complete one of the following to access this ATM
+Enter 1 to enter an account number
+Enter 2 to enter an ATM operator password
+
+2
+Enter your ATM operator password:
+SecureATM
+Enter 1 to display the number of each bill
+Enter 2 to put a given number of bills into the ATM
+Enter 3 to remove a given number of bills from the ATM
+
+2
+CURRENT VAULT BALANCE: $17425
+$100.......100
+$50.......99
+$20.......99
+$5.......99
+
+How many $100 bills do you want to add to the ATM?
+20
+How many $50 bills do you want to add to the ATM?
+1
+How many $20 bills do you want to add to the ATM?
+1
+How many $5 bills do you want to add to the ATM?
+1
+NEW BALANCE: $19500
+$100.......120
+$50.......100
+$20.......100
+$5.......100
+
+------------------------------------------------------------------------------------------------------------------------
+------ Operator Remove Bills ------
+Complete one of the following to access this ATM
+Enter 1 to enter an account number
+Enter 2 to enter an ATM operator password
+
+2
+Enter your ATM operator password:
+SecureATM
+Enter 1 to display the number of each bill
+Enter 2 to put a given number of bills into the ATM
+Enter 3 to remove a given number of bills from the ATM
+
+3
+CURRENT VAULT BALANCE: $19500
+$100.......120
+$50.......100
+$20.......100
+$5.......100
+
+How many $100 bills do you want to take out of the ATM?
+20
+How many $50 bills do you want to take out of the ATM?
+1
+How many $20 bills do you want to take out of the ATM?
+1
+How many $5 bills do you want to take out of the ATM?
+0
+NEW BALANCE: $17430
+$100.......100
+$50.......99
+$20.......99
+$5.......100
